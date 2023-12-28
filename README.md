@@ -3,9 +3,9 @@ Implementation of a scheduler using a Linked List to keep Ready Queue. Nodes are
 
 ## Data Representation
 Each line represents a process with 4 integer values:
-processID,
-arrivalTime,
-runTime,
-priority (smaller the values, higher the priority)
+- processID
+- arrivalTime
+- runTime
+- priority (smaller the values, higher the priority)
 
 When a process is finished, its processID wil be printed.
